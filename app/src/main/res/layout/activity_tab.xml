@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colour"
+    tools:context=".Tab">
+
+    <Button
+        android:id="@+id/yogaB"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="YOGA"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/meditateB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizB" />
+
+    <Button
+        android:id="@+id/meditateB"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="MEDITATE"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/exerciseB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yogaB" />
+
+    <Button
+        android:id="@+id/exerciseB"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="EXERCISE"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/musicB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meditateB" />
+
+    <Button
+        android:id="@+id/musicB"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="MUSIC"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exerciseB" />
+
+    <Button
+        android:id="@+id/quizB"
+        android:layout_width="211dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="QUIZ"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/yogaB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

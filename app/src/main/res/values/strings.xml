@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Break tab</string>
+    <string name="exercise">EXERCISE</string>
+    <string name="_10_minute_exercises">10 minute exercises</string>
+    <string name="_6_minute_exercises">6 minute exercises</string>
+    <string name="https_www_youtube_com_watch_v_a9wc_elmp30">https://www.youtube.com/watch?v=a9WC_eLmP30</string>
+    <string name="https_www_youtube_com_watch_v_g_d7ncac9rq">https://www.youtube.com/watch?v=g-D7ncAC9rQ</string>
+    <string name="https_www_youtube_com_watch_v_inpok4mkvlm">https://www.youtube.com/watch?v=inpok4MKVLM</string>
+    <string name="_10_minute_meditation_session">10 minute meditation session</string>
+    <string name="https_www_youtube_com_watch_v_jholcb8gz0m">https://www.youtube.com/watch?v=Jholcb8Gz0M</string>
+    <string name="meditation">MEDITATION</string>
+    <string name="_2_minute_meditation_session">2 minute meditation session</string>
+    <string name="_5_minute_meditation_session">5 minute meditation session</string>
+    <string name="https_www_youtube_com_watch_v_ztoicychiou">https://www.youtube.com/watch?v=ZToicYcHIOU</string>
+    <string name="https_www_youtube_com_watch_v_lsw39ao17h0">https://www.youtube.com/watch?v=lsw39ao17h0</string>
+    <string name="_15_minute_yoga_session">15 minute yoga session</string>
+    <string name="https_www_youtube_com_watch_v_evki3oxayvk">https://www.youtube.com/watch?v=EVKi3oXAYvk</string>
+    <string name="yoga">YOGA</string>
+    <string name="_2_minute_yoga_session">2 minute yoga session</string>
+    <string name="_5_minute_yoga_session">5 minute yoga session</string>
+    <string name="https_www_youtube_com_watch_v_5yf0nljawd8">https://www.youtube.com/watch?v=5yf0nLjAWd8</string>
+    <string name="take_a_break_app_will_allow_you_to_get_a_break_from_your_online_work_to_relax_your_bodies_and_brain_so_that_you_can_work_in_your_best_state_n_set_the_timer_for_when_you_have_to_take_break_and_we_will_remind_you_n_you_can_also_choose_the_mini_breaks_you_want_in_the_settings_menu">\'Take a Break\' app will allow you to get a break from your online work to relax your bodies and brain so that you can work in your best state.\n Set the timer for when you have to take break and we will remind you.\n You can also choose the mini breaks you want in the settings menu.</string>
+    <string name="timer">TIMER</string>
+    <string name="connect">connect</string>
+    <string name="quiz">quiz</string>
+    <string name="todo1">todo1</string>
+    <string name="todo2">todo2</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="settings">settings</string>
+    <string name="sound_settings">Sound Settings</string>
+    <string name="volume">Volume</string>
+    <string name="short_reminders">Short Reminders</string>
+    <string name="drink_water_after_1_hr">Drink water after 1 Hr</string>
+    <string name="stand_up_30_min">Stand Up - 30 min</string>
+    <string name="stretch_for_a_bit_1_hr">Stretch for a bit - 1 Hr</string>
+</resources>

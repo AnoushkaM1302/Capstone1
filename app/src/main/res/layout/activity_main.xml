@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colour"
+    android:clickable="true"
+    tools:context=".BufferafterTimer">
+
+
+    <Button
+        android:id="@+id/breaktabbtn"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#ED58DF"
+        android:fontFamily="sans-serif-medium"
+        android:text="BREAK"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbtn" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="164dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#ED58DF"
+        android:text="SNOOZE"
+        android:textColor="#132067"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/breaktabbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="336dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="79dp"
+        android:fontFamily="monospace"
+        android:text="YOU HAVE WORKED HARD \n\tTAKE A BREAK!"
+        android:textAlignment="center"
+        android:textColor="#953253"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/backbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
